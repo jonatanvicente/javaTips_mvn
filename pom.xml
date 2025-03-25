@@ -31,5 +31,7 @@
         <module>SingletonPattern</module>
         <module>Streams</module>
         <module>Varargs</module>
+        <module>Assert</module>
+        <module>AssertJ_Hamcrest</module>
     </modules>
 </project>

@@ -7,8 +7,7 @@ interface IPiValue {
 
 public class ExpressionsB {
     public static void main( String[] args ) {
-        IPiValue ref;
-        ref = () -> 3.1415;
+        IPiValue ref = () -> 3.1415;
         System.out.println("Value of Pi = " + ref.getPiValue());
     }
 }

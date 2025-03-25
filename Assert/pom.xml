@@ -9,32 +9,13 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>JacksonMapper</artifactId>
+    <artifactId>Assert</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.18.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.dataformat</groupId>
-            <artifactId>jackson-dataformat-xml</artifactId>
-            <version>2.18.2</version>
-        </dependency>
-    </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -49,10 +30,9 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>org.javatips.jackson.annotation.Main</mainClass>
+                    <mainClass>org.javatips.assertions.AssertSample</mainClass>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
 </project>
