@@ -33,5 +33,6 @@
         <module>Varargs</module>
         <module>Assert</module>
         <module>AssertJ_Hamcrest</module>
+        <module>TravelAgency</module>
     </modules>
 </project>
