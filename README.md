@@ -79,12 +79,6 @@ This project is a modular project, so you can run the modules using following co
 
 - **RegExp**: Regular Expressions in Java Language.
   
-- **OneToOne**: This example shows a One-To-One relationship using JPA (see [README.md](OneToOne/README.md)). 
-    - This sample contains a microservice, similar to project [SpringBootInitialDemo](https://github.com/IT-Academy-BCN/springBootInitialDemo).
-    - The code shows how to set up and implement a relationship One-2-One. Uses a in-memory database H2, as you can see at application.properties.
-    - System load when starting files schema.sql and data.sql, in that order, creating a db navigable at http://localhost:8081/h2-console
-    - Pay special attention at the entities: Student and Tuition. Show how to map database entities to Java objects.
-  
 - **Optional**: 
     - Java 8 introduced the class **Optional**.
     - The purpose of this class is to provide a type-level solution for representing optional values instead of null references, avoid
@@ -99,28 +93,13 @@ This project is a modular project, so you can run the modules using following co
     - Bus Ticket to Kids
     - Plane Ticket to Adults
     - Train Ticket to Seniors
+  
   Some notes:
     - ITravelAgencyBuilder: Abstract Factory to build travel agencies.
     - TravelAgencyFactory: Singleton that contains a concrete factory to create specific agencies (it depends on the customer type).
     - Factory package: Definition and implementation of agency types.
 
-
 **Note**: Some examples are adaptations of course **Thinking In Java** of Bruce Eckel. You can see more examples [here](https://www.mindviewinc.com/)  
-
-### Import project to IntelliJ
-
-Follow next steps:
-- Open IntelliJ.
-- Select **Open** option.
-- Navigate to the folder containing the project.
-
-### Import project to Eclipse
-- Navigate to menu File > Import
-- Select Gradle / Existing Gradle Project and press 'Next'
-- Select Project Root Directory as images below shown, and press 'Finish'
-- Now you can see the workspace with the project ready to work
-
-
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct_EN.md) 
  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct_ES.md) 
