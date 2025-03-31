@@ -1,9 +1,6 @@
 package org.javatips.travelagency.builder;
 
-import org.javatips.travelagency.customer.Adult;
-import org.javatips.travelagency.customer.Aged;
-import org.javatips.travelagency.customer.ICustomer;
-import org.javatips.travelagency.customer.Kid;
+import org.javatips.travelagency.customer.*;
 import org.javatips.travelagency.factory.AirportAgency;
 import org.javatips.travelagency.factory.ITravelAgency;
 
@@ -20,6 +17,7 @@ public class TravelAgencyFactory {
 
     private TravelAgencyFactory(){
         builders.put(Kid.class, new BusAgencyBuilder());
+        builders.put(Teen.class, new MotorbikeAgencyBuilder());
         builders.put(Adult.class, new AirportAgencyBuilder());
         builders.put(Aged.class, new TrainAgencyBuilder());
     }

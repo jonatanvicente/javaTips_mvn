@@ -91,6 +91,7 @@ This project is a modular project, so you can run the modules using following co
 - **TravelAgency**. This sample shows how using Singleton, Strategy, Factory and Builder patterns at same time. It suppose a travel agency
     that offers different types of tickets, with several conditions:
     - Bus Ticket to Kids
+    - Motorbike Ticket to Teens
     - Plane Ticket to Adults
     - Train Ticket to Seniors
   

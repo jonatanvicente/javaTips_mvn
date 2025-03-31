@@ -1,9 +1,6 @@
 package org.javatips.travelagency;
 
-import org.javatips.travelagency.customer.Adult;
-import org.javatips.travelagency.customer.Aged;
-import org.javatips.travelagency.customer.ICustomer;
-import org.javatips.travelagency.customer.Kid;
+import org.javatips.travelagency.customer.*;
 import org.javatips.travelagency.builder.TravelAgencyFactory;
 
 public class Main {
@@ -13,6 +10,10 @@ public class Main {
         System.out.println("---------- Kid Customer -----------");
         ICustomer kid = new Kid();
         TravelAgencyFactory.getInstance().build(kid).makeTicket().getType();
+
+        System.out.println("---------- Teen Customer -----------");
+        ICustomer teen = new Teen();
+        TravelAgencyFactory.getInstance().build(teen).makeTicket().getType();
 
         System.out.println("---------- Adult Customer -----------");
         ICustomer adult = new Adult();
