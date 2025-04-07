@@ -34,5 +34,6 @@
         <module>Assert</module>
         <module>AssertJ_Hamcrest</module>
         <module>TravelAgency</module>
+        <module>CommandPattern</module>
     </modules>
 </project>
